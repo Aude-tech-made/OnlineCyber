@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DreeTech - Espace Cyber</title>
+    <link rel="stylesheet" href="css/cyber.css">
+    <link href="css/ggle.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ajaxcss.css">
+</head>
+<a>
+    
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-desktop"></i>
+                <span>DreeTech</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#tarifs" class="nav-link">Tarifs</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+           <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">DreeTech</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Votre espace cyber : navigation internet, impression, photocopie et services numériques dans un environnement high-tech
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('services')">
+                        Découvrir nos services
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        Nous contacter
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="text-blue">Services</span></h2>
+                <p>Une gamme complète de services numériques pour répondre à tous vos besoins</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Navigation Internet</h3>
+                    <p>Accès haut débit sécurisé avec stations modernes</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Wi-Fi gratuit</li>
+                        <li><i class="fas fa-check"></i> Stations privées</li>
+                        <li><i class="fas fa-check"></i> Support technique</li>
+                    </ul>
+                    <div class="service-price">250Fr/heure</div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-print"></i>
+                    </div>
+                    <h3>Impression</h3>
+                    <p>Impression couleur et noir & blanc de qualité professionnelle</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Impression A4/A3</li>
+                        <li><i class="fas fa-check"></i> Couleur & N&B</li>
+                        <li><i class="fas fa-check"></i> Finition premium</li>
+                    </ul>
+                    <div class="service-price">25Fr/page</div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>Photocopie</h3>
+                    <p>Service de photocopie rapide et économique</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Copies multiples</li>
+                        <li><i class="fas fa-check"></i> Recto-verso</li>
+                        <li><i class="fas fa-check"></i> Différents formats</li>
+                    </ul>
+                    <div class="service-price">15Fr/copie</div>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Services en Ligne</h3>
+                    <p>Assistance pour vos démarches administratives digitales</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Aide administrative</li>
+                        <li><i class="fas fa-check"></i> Création comptes</li>
+                        <li><i class="fas fa-check"></i> Démarches officielles</li>
+                    </ul>
+                    <div class="service-price">Sur devis</div>
+                </div>
+            </div>
+
+            <h2 class="features-title" data-aos="fade-up">Pourquoi choisir <span class="text-blue">DreeTech</span> ?</h2>
+            <div class="features-grid">
+                <div class="feature-item" data-aos="fade-up">
+                    <i class="fas fa-wifi"></i>
+                    <h4>Connexion Haut Débit</h4>
+                    <p>Internet ultra-rapide pour tous vos besoins</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-clock"></i>
+                    <h4>Ouvert 7j/7</h4>
+                    <p>Service disponible tous les jours de 8h à 20h</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-users"></i>
+                    <h4>Support Expert</h4>
+                    <p>Équipe technique pour tous vos soucis techniques </p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-credit-card"></i>
+                    <h4>Paiement Flexible</h4>
+                    <p>Espèces, Mobile Money et Visa </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section -->
+    <section id="tarifs" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nos <span class="text-blue">Tarifs</span></h2>
+                <p>Découvrez nos forfaits avantageux</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <h3>Basique</h3>
+                    <div class="price">1000Fr<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 10h de navigation</li>
+                        <li><i class="fas fa-check"></i> 50 impressions N&B</li>
+                        <li><i class="fas fa-check"></i> Support standard</li>
+                    </ul>
+                    <button class="btn btn-outline">Choisir ce forfait</button>
+                </div>
+
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-badge">Le plus populaire</div>
+                    <h3>Premium</h3>
+                    <div class="price">3000Fr<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 30h de navigation</li>
+                        <li><i class="fas fa-check"></i> 200 impressions couleur</li>
+                        <li><i class="fas fa-check"></i> Support prioritaire</li>
+                        <li><i class="fas fa-check"></i> Services en ligne inclus</li>
+                    </ul>
+                    <button class="btn btn-primary">Choisir ce forfait</button>
+                </div>
+
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Professionnel</h3>
+                    <div class="price">6000Fr<span>/mois</span></div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Accès illimité</li>
+                        <li><i class="fas fa-check"></i> 500 impressions</li>
+                        <li><i class="fas fa-check"></i> Support dédié</li>
+                        <li><i class="fas fa-check"></i> Services premium</li>
+                    </ul>
+                    <button class="btn btn-outline">Choisir ce forfait</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nous <span class="text-blue">Contacter</span></h2>
+                <p>Passer nous rendre visite ou contactez nous pour tout service numerique</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Adresse</h4>
+                            <p>Rue du Nouveau marche de Kara<br>Kara, Togo</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horaires</h4>
+                            <p>Lun - Ven : 8h00 - 20h00<br> Jours ouvrables</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Téléphone</h4>
+                            <p>+228 93448303/ 70352635</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>audreybakoma@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <h3>Envoyez-nous un message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary"  onclick="location.href='mailto:tonadresse@mail.com?subject=Contact depuis le site&body=Bonjour, je vous contacte via votre site.'">
+  Envoyer un message
+</button>
+" >Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-desktop"></i>
+                    <span>DreeTech</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 DreeTech</p>
+                    <p>DreeTech • Services numériques • Kara</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/dree.js"></script>
+</body>
+</html>
